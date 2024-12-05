@@ -1,0 +1,21 @@
+# 原链接 : https://kelee.one/Tool/Loon/Plugin/XiaoHeiHe_remove_ads.plugin
+#!name=小黑盒去广告
+#!desc=移除开屏广告和热点板块信息流广告
+#!openUrl=https://apps.apple.com/app/id1244505010
+#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/XiaoHeiHe.png
+#!date=2024-11-28 00:00:00
+
+[Rewrite]
+^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v2 reject-dict
+
+[Script]
+http-response ^https:\/\/api\.xiaoheihe\.cn\/bbs\/app\/feeds\/news script-path=https://kelee.one/Resource/Script/XiaoHeiHe/XiaoHeiHe_remove_ads.js,requires-body=true,tag=移除热点板块信息流广告
+
+[MitM]
+hostname=api.xiaoheihe.cn

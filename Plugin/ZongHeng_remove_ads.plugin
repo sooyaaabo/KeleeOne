@@ -1,0 +1,19 @@
+# 原链接 : https://kelee.one/Tool/Loon/Plugin/ZongHeng_remove_ads.plugin
+#!name=纵横小说去广告
+#!desc=移除纵横小说开屏广告和弹窗
+#!openUrl=https://apps.apple.com/app/id433125283
+#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ZongHeng.png
+#!date=2024-11-28 00:00:00
+
+[Rewrite]
+^https:\/\/api1\.zongheng\.com\/iosapi\/system\/startup$ reject
+^https:\/\/api2\.zongheng\.com\/api\/giftBag\/bindingBag$ reject-dict
+
+[MitM]
+hostname=api?.zongheng.com
