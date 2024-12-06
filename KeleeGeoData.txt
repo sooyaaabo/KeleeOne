@@ -1,0 +1,2 @@
+https://geodata.kelee.one/Country-Masaiki.mmdb
+https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
