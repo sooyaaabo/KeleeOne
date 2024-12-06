@@ -1,0 +1,22 @@
+# 本项目内容由 https://github.com/luestr 基于原项目修改而来，在此表示感谢。
+# NAME: SmarTone
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:55
+# DOMAIN-SUFFIX: 15
+# TOTAL: 15
+DOMAIN-SUFFIX,barkadahansasmartone.com
+DOMAIN-SUFFIX,healthreach.hk
+DOMAIN-SUFFIX,hkcircleapp.com
+DOMAIN-SUFFIX,homephoneplus.com
+DOMAIN-SUFFIX,ip73.com
+DOMAIN-SUFFIX,s-cashonmobile.com
+DOMAIN-SUFFIX,s-rewards.hk
+DOMAIN-SUFFIX,sahabatsetiasmartone.com
+DOMAIN-SUFFIX,smartone.com
+DOMAIN-SUFFIX,smartoneholdings.com
+DOMAIN-SUFFIX,smartonerobotics.com
+DOMAIN-SUFFIX,smartonesolutions.com.hk
+DOMAIN-SUFFIX,smartonesolutions.hk
+DOMAIN-SUFFIX,valuegb.com
+DOMAIN-SUFFIX,wise-research.com
