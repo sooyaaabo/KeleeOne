@@ -84,7 +84,7 @@ jobs:
             url="${configs[$config_name]}"
             curl -A "Surge iOS/3367" -L -o "KeleeOne/Config/${config_name}.conf" "$url"
 
-            sed -i "1s|^|# Original URL: $url\n|" "KeleeOne/Config/$config_name.conf"  # 在文件开头添加原链接
+            sed -i "1s|^|# 引用链接: $url\n|" "KeleeOne/Config/$config_name.conf"  # 在文件开头添加原链接
         done
         
 
@@ -985,7 +985,7 @@ jobs:
             
             # 将原链接添加到文件开头
             # echo "# 原链接 : $url" | cat - "KeleeOne/Plugin/$plugin_name.plugin" > temp && mv temp "KeleeOne/Plugin/$plugin_name.plugin"
-            sed -i "1s|^|# Original URL: $url\n|" "KeleeOne/Plugin/$plugin_name.plugin"  # 在文件开头添加原链接
+            sed -i "1s|^|# 引用链接: $url\n|" "KeleeOne/Plugin/$plugin_name.plugin"  # 在文件开头添加原链接
         done
 
         # 删除 error.log 文件
