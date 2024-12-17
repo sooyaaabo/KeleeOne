@@ -1,4 +1,4 @@
-# 2024-12-13
+# 2024-12-17
 # https://github.com/Moli-X/Tool/blob/X/.github/workflows/Fork.yml
 
 name: Build & Update
@@ -942,6 +942,7 @@ jobs:
             [LuckinCoffee_remove_ads]="https://kelee.one/Tool/Loon/Plugin/LuckinCoffee_remove_ads.plugin"
             [QtingFM_remove_ads]="https://kelee.one/Tool/Loon/Plugin/QtingFM_remove_ads.plugin"
             [KOOK_remove_ads]="https://kelee.one/Tool/Loon/Plugin/KOOK_remove_ads.plugin"
+            [CCLive_remove_ads]="https://kelee.one/Tool/Loon/Plugin/CCLive_remove_ads.plugin"
             [UnionPay_remove_ads_with_ssl_unpinning]="https://kelee.one/Tool/Loon/Plugin/UnionPay_remove_ads_with_ssl_unpinning.plugin"
             [DouBan_remove_ads]="https://kelee.one/Tool/Loon/Plugin/DouBan_remove_ads.plugin"
             [BaiduMap_remove_ads]="https://kelee.one/Tool/Loon/Plugin/BaiduMap_remove_ads.plugin"

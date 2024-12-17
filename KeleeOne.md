@@ -271,6 +271,8 @@
 
 [KOOK去广告](https://kelee.one/Tool/Loon/Plugin/KOOK_remove_ads.plugin)
 
+[CC直播去广告](https://kelee.one/Tool/Loon/Plugin/CCLive_remove_ads.plugin)
+
 [云闪付去广告](https://kelee.one/Tool/Loon/Plugin/UnionPay_remove_ads_with_ssl_unpinning.plugin)
 
 [豆瓣去广告](https://kelee.one/Tool/Loon/Plugin/DouBan_remove_ads.plugin)

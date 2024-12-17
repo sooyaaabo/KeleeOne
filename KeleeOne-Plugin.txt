@@ -124,6 +124,7 @@ https://kelee.one/Tool/Loon/Plugin/KwaiVideoeditor_remove_ads.plugin
 https://kelee.one/Tool/Loon/Plugin/LuckinCoffee_remove_ads.plugin
 https://kelee.one/Tool/Loon/Plugin/QtingFM_remove_ads.plugin
 https://kelee.one/Tool/Loon/Plugin/KOOK_remove_ads.plugin
+https://kelee.one/Tool/Loon/Plugin/CCLive_remove_ads.plugin
 https://kelee.one/Tool/Loon/Plugin/UnionPay_remove_ads_with_ssl_unpinning.plugin
 https://kelee.one/Tool/Loon/Plugin/DouBan_remove_ads.plugin
 https://kelee.one/Tool/Loon/Plugin/BaiduMap_remove_ads.plugin
